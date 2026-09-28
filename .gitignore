@@ -41,3 +41,6 @@ traces/
 .idea/
 .DS_Store
 Thumbs.db
+
+
+.gitignore

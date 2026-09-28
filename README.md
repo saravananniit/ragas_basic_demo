@@ -7,6 +7,7 @@ uv venv
 uv pip install ragas "langchain-community<0.3"
 ragas quickstart rag_eval
 cd rag_eval -->
+# ollama create llama3.1-8k -f Modelfile
 
 # RAG Evaluation
 
