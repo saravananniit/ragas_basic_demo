@@ -104,18 +104,4 @@ Update the `my_metric` definition in `evals.py` to use different grading criteri
 Visit https://docs.ragas.io for more information.
 
 
-(ragas_demo) PS C:\Users\zadmin\Desktop\ragas_demo> ragas quickstart rag_eval
-⠸ Creating documentation...
-
-✓ Created RAG Evaluation project at: rag_eval
-
-Next Steps:
-  cd rag_eval
-  uv sync
-  export OPENAI_API_KEY='your-api-key'
-  uv run python evals.py
-
-📚 For detailed instructions, see:
-  https://docs.ragas.io/en/latest/getstarted/quickstart/
-
 uv run python -c "import pandas as pd, glob; f=glob.glob('evals/**/blissful_codd.csv', recursive=True)[0]; print(f); print(pd.read_csv(f)[['question','response','score','error']].to_string())"
