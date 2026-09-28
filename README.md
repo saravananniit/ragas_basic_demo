@@ -103,5 +103,7 @@ Update the `my_metric` definition in `evals.py` to use different grading criteri
 
 Visit https://docs.ragas.io for more information.
 
-
+## To test the output in powershell
+```powershell
 uv run python -c "import pandas as pd, glob; f=glob.glob('evals/**/blissful_codd.csv', recursive=True)[0]; print(f); print(pd.read_csv(f)[['question','response','score','error']].to_string())"
+```
